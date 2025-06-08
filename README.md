@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# TalkAI Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Current Features
 
-Currently, two official plugins are available:
+### Authentication System
+  - User registration and login
+  - Password reset functionality
+  - Protected route handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Chat System
+  - Real-time chat interactions
+  - Chat session management
+  - Message history tracking
 
-## Expanding the ESLint configuration
+### Theme Management
+  - Dark/Light theme support
+  - Dynamic theme switching
+  - Customizable UI elements
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Language Support
+  - Multi-language interface (English, Turkish)
+  - Language preference management
+  - Dynamic content translation
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### User Management
+  - Profile customization
+  - Settings configuration
+  - User preferences storage
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Notification System
+  - Real-time notifications
+  - System alerts
+  - User activity tracking
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Package Management
+  - Upgrade options
+  - Package feature access
+  - Subscription status display
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# ✨ Upcoming Features
+
+### Payment Integration
+  - Stripe payment service implementation
+  - Secure transaction processing
+  - Subscription handling system
+
+### Package-based Access Control
+  - User limits based on package type
+  - Feature access management
+  - Usage tracking and monitoring
+
+### Enhanced Profile System
+  - Extended profile customization
+  - Advanced settings options
+  - Improved user experience features
+
+### Extended Language Support
+  - Additional language implementations
+  - Enhanced translation system
+  - Language-specific optimizations
+
+### Mobile Experience Enhancement
+  - Responsive UI improvements
+  - Mobile-specific features
+  - Touch interface optimization
